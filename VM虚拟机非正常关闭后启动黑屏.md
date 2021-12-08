@@ -1,7 +1,7 @@
 # Windows
 收集一些Windows的智障小问题
 
-遇到黑屏先重启，执行完以上代码后，重启
+遇到黑屏先重启，CMD执行完以上代码后，重启
 
 netsh winsock reset
 
