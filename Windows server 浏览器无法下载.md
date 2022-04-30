@@ -1,4 +1,4 @@
-# Azure
+# Windows
 
 Error message: "Your current security settings do not allow this file to be downloaded" when downloading iTunes and Norton Internet Security in Internet Explorer
   
