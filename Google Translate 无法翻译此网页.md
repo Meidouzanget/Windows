@@ -11,4 +11,10 @@
   
   203.208.40.66 translate.googleapis.com
 
+新增
+ 
+113.108.239.162 translate.google.com
+
+113.108.239.162 translate.googleapis.com
+
 如果实在不行，用微软自带的Edge吧，虽然翻译效果差点，但勉强能用
