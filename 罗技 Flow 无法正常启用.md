@@ -22,9 +22,7 @@
 
 设为专用网络
 
-![image](https://user-images.githubusercontent.com/59044398/200112267-153ad927-29f4-420a-b135-a6118d551cb3.png)
-
-
+![image](https://user-images.githubusercontent.com/59044398/200114219-eead9df3-f3b6-41cb-afe7-dba481b5af95.png)
 
 
 ### 第三
