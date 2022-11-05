@@ -31,7 +31,7 @@
 
 如果还是不行，检查出站入站设置，虽然我也没测试过删了还行不行，出站是默认没有的，后来加的
 
-找到LogiOptionsMgr.exe，在入站复制路径，新增一个到出站
+在入站找到LogiOptionsMgr.exe，复制路径，新增一个到出站
 
 ![image](https://user-images.githubusercontent.com/59044398/200112492-6dec7ebd-d6f9-48bd-bf19-2264f4fb1da4.png)
 
@@ -54,7 +54,7 @@
 
 启用并添加通信端口触发程序。
 
-应用设置，并重启路由器
+应用本页面设置，并重启路由器
 
 ![image](https://user-images.githubusercontent.com/59044398/200112784-b931e83c-4be9-46df-81ad-56f929454fcc.png)
 
