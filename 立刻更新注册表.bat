@@ -1,0 +1,1 @@
+gpupdate /force /wait:0
