@@ -39,7 +39,11 @@
 ![image](https://github.com/Meidouzanget/Windows/assets/59044398/ff1de73a-8e92-4b21-88d2-35a9140af890)
 
 
+#################
 
+没有动设置，第二天播放突然就变卡了，遗留的窗口再重新连接远程桌面会导致问题。
+观察到如上图，Video Decode没有活动。
+关掉所有potplayer窗口再启动恢复正常。
 
 
 
