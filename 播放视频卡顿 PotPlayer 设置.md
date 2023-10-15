@@ -60,8 +60,11 @@
 最后改为了OpenGL，播放其他格式的视频会不会卡呢？只能后续遇到再说了，烦
 ![image](https://github.com/Meidouzanget/Windows/assets/59044398/9498aee6-8bc7-44db-bffd-8a904ed15d7f)
 
+改为OpenGL， Video Decode虽然没有活动，但是没有卡
 
+![image](https://github.com/Meidouzanget/Windows/assets/59044398/7e227c67-68cb-45eb-ac80-35c5eb497ba3)
 
+后来给和LAV又试了一下MadVR，播放时正常的但有点有点时间回溯的样子，画面偶尔前后震荡。补帧负优化，补了个寂寞
 
 
 
