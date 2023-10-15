@@ -47,7 +47,7 @@
  
 
 ####################################################################
-发现一个MKV视频有点卡，其他都没问题，属性查看是个AVC1 
+发现一个MKV视频有音画不同步，其他都没问题，属性查看是个AVC1 
 ![image](https://github.com/Meidouzanget/Windows/assets/59044398/5c3d2f31-b2cf-4080-a536-4e1e2184ed53)
 
 台式电脑是没问题的，又是远程机不行，尝试安装台式的配置安装LAV
@@ -55,16 +55,18 @@
 配置参考：https://blog.csdn.net/ronghua189/article/details/124522236
 
 
-这里原用这里Direct3D 11，可是这样配合LAV播放 AVC1 会有点卡。可是按照教程改为Madshi 播放又变成HVC1 卡了
-
-最后改为了OpenGL，播放其他格式的视频会不会卡呢？只能后续遇到再说了，烦
+这里原用这里Direct3D 11，可以改为OpenGL 或 Madshi
 ![image](https://github.com/Meidouzanget/Windows/assets/59044398/9498aee6-8bc7-44db-bffd-8a904ed15d7f)
 
-改为OpenGL， Video Decode虽然没有活动，但是没有卡
+这里用默认GPU占用会比较多，Video Decode有活动；用LAV则CPU占用比较；Video Decode无活动。
+
+![image](https://github.com/Meidouzanget/Windows/assets/59044398/6d439d14-95fb-4541-b969-0f342f62c34d)
+
+![image](https://github.com/Meidouzanget/Windows/assets/59044398/2a263a86-c115-4875-a4a4-e95fc5fd6ae1)
 
 ![image](https://github.com/Meidouzanget/Windows/assets/59044398/7e227c67-68cb-45eb-ac80-35c5eb497ba3)
 
-后来给和LAV又试了一下MadVR，播放时正常的但有点有点时间回溯的样子，画面偶尔前后震荡。补帧负优化，补了个寂寞
+后来结合和LAV又试了一下MadVR，播放时正常的但有点有点时间回溯的样子，画面偶尔前后震荡。补帧负优化，补了个寂寞
 
 
 
