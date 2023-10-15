@@ -39,19 +39,26 @@
 ![image](https://github.com/Meidouzanget/Windows/assets/59044398/ff1de73a-8e92-4b21-88d2-35a9140af890)
 
 
-#################
+####################################################################
 
 没有动设置，第二天播放突然就变卡了，遗留的窗口再重新连接远程桌面会导致问题。
 观察到如上图，Video Decode没有活动。
 关掉所有potplayer窗口再启动恢复正常。
+ 
+
+####################################################################
+发现一个MKV视频有点卡，其他都没问题，属性查看是个AVC1 
+![image](https://github.com/Meidouzanget/Windows/assets/59044398/5c3d2f31-b2cf-4080-a536-4e1e2184ed53)
+
+台式电脑是没问题的，又是远程机不行，尝试安装台式的配置安装LAV
+
+配置参考：https://blog.csdn.net/ronghua189/article/details/124522236
 
 
+这里原用这里Direct3D 11，可是这样配合LAV播放 AVC1 会有点卡。可是按照教程改为Madshi 播放又变成HVC1 卡了
 
-
-
-
-
-
+最后改为了OpenGL，播放其他格式的视频会不会卡呢？只能后续遇到再说了，烦
+![image](https://github.com/Meidouzanget/Windows/assets/59044398/9498aee6-8bc7-44db-bffd-8a904ed15d7f)
 
 
 
